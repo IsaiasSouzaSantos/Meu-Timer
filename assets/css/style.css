@@ -1,0 +1,57 @@
+:root{
+    --color-container:rgba(201, 197, 197, 0.781);
+    --color-text:rgb(0, 0, 0);
+    --color-button:rgb(155, 152, 152);
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:50%;
+    margin: 50px auto;
+    background-color:var(--color-container);
+    padding:20px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.relogio{
+    font-size:5rem;
+
+}
+
+.pausado{
+    color:red;
+}
+
+h1{
+    text-transform:uppercase;
+    margin-bottom:20px;
+    color:var(--color-text);
+
+}
+
+div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+button{   
+    width:100%;
+    margin:15px;
+    padding:15px;
+    border:none;
+    border-radius: 20px;
+    background-color: var(--color-button);
+    cursor:pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:rgb(73, 71, 71);
+}
